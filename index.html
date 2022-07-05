@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .container {
-        background-color: aqua;
-        height: 50vh;
-      }
-      .box {
-        border: 2px solid red;
-        img;
-        /* transform: translate(134px, 56px) rotate(45deg); */
-        /* transform: scale(4, 5); */
-        /* transform-origin: 0; */
-        /* transform: skew(4deg, 5deg); */
-      }
-      box:hover{
-        width: 40px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="box"><img src="" alt="">
-        <div>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .container {
+      background-color: aqua;
+      height: 50vh;
+    }
+
+    .box {
+      border: 2px solid red;
+      display: inline-block;
+      height: 34vh;
+
+
+      /* transform: translate(134px, 56px) rotate(45deg); */
+      /* transform: scale(4, 5); */
+      /* transform-origin: 0; */
+      /* transform: skew(4deg, 5deg); */
+    }
+
+    img {
+      height: 300px;
+      width: 300px;
+      /* transition-property: height;
+      transition-duration: 5s;
+      transition-timing-function: ease-in;
+      transition-delay: 3s; */
+      transition: height 3s ease-in-out , width 3s ease-in-out;
+    }
+
+    img:hover {
+      height: 100px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box"><img src="pexels-anjana-c-674010 (1).jpg" alt="nature image">
+      <div>
+      </div>
+</body>
+
 </html>
