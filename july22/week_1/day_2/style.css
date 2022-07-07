@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    height: 60px;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.new{
+    background-color: azure;
+}
+.div{
+    /* width: 100vh; */
+    text-align: center;
+    font-size: larger;
+    margin: 42px 0px 0px 0px;
+}
+.div2{
+    text-align: center;
+}
+.div3{
+    
+    width: 100px;
+    height: 25px;
+    background-color: aqua;
+    position: relative;
+    left: 704px;
+    top: 10px;
+    padding-left: 18px;
+   
+}
+   .wonders{
+    height: 15vh;
+    width: 10vw;
+
+   }
+   .wonders1{
+    height: 30vh;
+    width: 20vw;
+   }
+   .wonders2{
+    height: 20vh;
+    width: 20vw;
+   }
+   .table{
+    position:relative;
+    left: 366px;
+    top: 68px;
+   }
+  
+   
+    
+   
+
+
+
+
+    
+    
+
+
+
+    
+
+.details{
+    color: black;
+}
+li{
+    display: inline-block;
+    padding:8px;
+
+}
+.img{
+    height: 60px;
+    
+}
