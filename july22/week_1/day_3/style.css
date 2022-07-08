@@ -7,14 +7,16 @@
     display: flex;
  
  }
+ 
     
     
  
     
  
 .fruit{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
      }
    .fruit::first-line{
     font-family: fantasy;
