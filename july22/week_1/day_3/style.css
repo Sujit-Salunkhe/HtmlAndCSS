@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1vGBdAmFgCnkRbtakmIP5z2176wpW3zYpw&usqp=CAU); */
+    display: flex;
+ 
+ }
+    
+    
+ 
+    
+ 
+.fruit{
+    background-color: aqua;
+    width: 25rem;
+     }
+   .fruit::first-line{
+    font-family: fantasy;
+    
+   }
+   .deatils{
+    background-color: cadetblue;
+    margin-left: 5px;
+}
+
+   .btn{
+    position: relative;
+    top: 16px;
+    left: 110px;
+   }
+   p.text{
+    margin-top: 48px;
+    font-size: 50px;
+    margin-left :61px;
+    
+   }
+   .text2{
+    margin-left: 198px;
+    font-size: 26px;
+   }
+   
+    
+   

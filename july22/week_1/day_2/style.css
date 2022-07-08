@@ -44,14 +44,20 @@
    }
    .wonders2{
     height: 20vh;
-    width: 20vw;
-   }
-   .table{
+    width: 20vw; }
+   
+   table{
     position:relative;
     left: 366px;
     top: 68px;
    }
-  
+  td{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    
+  }
    
     
    
