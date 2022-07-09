@@ -18,10 +18,8 @@
         width: 750px;
         background-color:#ffffff;
         display: flex;
-        border-radius: 0px;
-        background: #e0e0e0;
-        box-shadow:  9px 9px 48px #a4a4a4,
-                      -9px -9px 48px #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+       
     }
     .left {
         height: 100%;
@@ -80,19 +78,17 @@
             
          }
          .btn{
-            background-color:#5ecb97 ;
+            
             width: 100px;
             height: 30px;
-            border: 2px solid #5ecb97;
             margin-top: 20px;
+            /* border: 2px solid #5ecb97; */
+
             font-size: 16px;
             
          }
          .shadow{
-            border-radius: 0px;
-            background: #e0e0e0;
-            box-shadow:  5px 5px 15px #d3d3d3,
-                         -5px -5px 15px #ededed;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
          }
 
         
