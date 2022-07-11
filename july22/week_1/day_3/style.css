@@ -21,14 +21,15 @@ body{
          
 }
  .bucket{
-    height: 21.2rem;
-    width: 15rem;
+    height: 23rem;
+    width: 16.8rem;
     /* background-color: #ecf4dc; */
     /* border: 2px solid red; */
  }
  .grapesbucket {
-    height: 22.1rem;
-    width: 15rem;
+    height: 23.9rem;
+    width: 16.8rem;
+    /* z-index: 4; */
  }
     .fruit{
     width: 28rem;
@@ -62,7 +63,7 @@ body{
   
     .deatils{
     height: 15rem;
-    width: 16.8rem;
+    width: 15rem;
     margin-top : 19.5px;
     margin-left: 5px;
     background-color: cadetblue;
@@ -72,15 +73,21 @@ body{
 }
 .welcome{
     margin-top: 27px;
-    margin-left: 39px;
+    margin-left: 20px;
     color: #b39a90;
+    
     
 }
 .welcome::first-line{
     color: #b39a90;
 }
+.textbox{
+   width: 175px;
+   background-image: linear-gradient(to bottom, #f5f3dc, #f8f5e3, #fbf7eb, #fcf9f2, #fdfcfa);
+
+ }
 .btn{
-    margin-left: 78px;
+    margin-left: 123px;
     width: 55px;
 }
 .bottom{
