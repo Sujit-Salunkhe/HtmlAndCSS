@@ -88,7 +88,11 @@ body{
  }
 .btn{
     margin-left: 123px;
+    padding: 0.25rem;
     width: 55px;
+    font-weight: 500;
+    font-size: medium;
+
 }
 .bottom{
     display: flex;

@@ -21,14 +21,19 @@ body {
     align-items: center;
     /* border: 2px solid red; */
 }
-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    /* padding-bottom: 20px; */
-    /* display: flex;   */
-    /* display: inline; */
+
+.letter {
+    width: 50px;
+    height: 50px;
+    background-color: rosybrown;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 0.5rem;
+    
+
 }
+
 .details{
     padding: 0 0 0 350px;
     /* display: inline; */
