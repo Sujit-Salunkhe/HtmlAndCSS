@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  text-transform: capitalize;
+}
+
+table,
+th,
+tr,
+td {
+  width: 100vw;
+  border: 2px dotted #0BF807;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tr {
+  background-color: brown;
+}
+
+.tr2 {
+  background-color: cadetblue;
+}
+
+.tr3 {
+  background-color: rgb(199, 101, 26);
+}
+
+.tr4 {
+  background-color: rgb(10, 171, 64);
+}
+
+.caption {
+  background-color: aqua;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+}
+
+.foot {
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.margin {
+  margin: 16px;
+}
