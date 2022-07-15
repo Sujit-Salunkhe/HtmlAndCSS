@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto&display=swap');
+/* npm install @fortawesome/fontawesome-svg-core */
+
 
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 
 .topcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -38,11 +40,71 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
-.glass {
-    font-size: 20px;
-    
+.search {
+    height: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color:#ff385c ;
+    content: url(https://www.kindacode.com/wp-content/uploads/2020/12/search.png);
 }
+
+.word {
+    margin-right: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.line {
+    display: inline-block;
+}
+
+.thirednav {
+    height: 80px;
+    width: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirednavfirst {
+    font-size: 19px;
+    font-weight: bolder;
+
+}
+
+.thirednavsecond {
+    content: url(https://cdn0.iconfinder.com/data/icons/kuru-travel/100/world_thin_convert-512.png);
+    height: 25px;
+}
+
+.thirednavthired {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+    border-radius: 30px;
+    background: white;
+    box-shadow:  46px 46px 90px #a6a6a6,
+                 -46px -46px 90px #ffffff;
     
+
+}
+
+.hamberger {
+    content: url(images/hamberger.png);
+    height: 20px;
+}
+
+.profile {
+    content: url(images/profile.png);
+    height: 30px;
+    border-radius: 30px;
+}
+
+
+
+
