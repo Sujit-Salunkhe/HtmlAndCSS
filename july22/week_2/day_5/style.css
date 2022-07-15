@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstnav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+
+}
+
+.logoname {
+    color: #ff385c; 
+    margin-left: 10px;
+    font-size: 30px;  
+    display: inline-block;
+}
+
+.secondnav {
+    width: 350px;
+    height: 40px;
+    border-radius: 50px;
+    background: white;
+    box-shadow:  46px 46px 90px #a6a6a6,
+                 -46px -46px 90px #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.glass {
+    font-size: 20px;
+    
+}
+    
