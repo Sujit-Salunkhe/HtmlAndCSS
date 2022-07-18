@@ -8,10 +8,16 @@
 # print(myorder.format(amt,price,qut))
 # print(4<5)
 veg=["mirchi","onion","potato"]
-nonveg=["chiken","goat"]
+# nonveg=["chiken","goat"]
 # veg.insert(2,"cook")
 # veg[1:3]=["chiken" ]
-veg.extend(nonveg)
+# veg.extend(nonveg)
+# print(veg)
+# x=input()
+# y=input()
+# z=input()
+# n=input()
+# for i in x:
 
+    
 
-print(veg)
