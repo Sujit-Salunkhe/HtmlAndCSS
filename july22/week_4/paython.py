@@ -19,5 +19,6 @@ veg=["mirchi","onion","potato"]
 # n=input()
 # for i in x:
 
+
     
 

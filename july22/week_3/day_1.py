@@ -48,7 +48,7 @@ import this
 # # list1.extend(list2)
 # for x in list2:
 #     list1.append(x)
-# # print(list1)
+# print(list1)
 # x=1
 # y=1
 # z=2
@@ -60,3 +60,7 @@ import this
 #                 if x+y+z!=0:
 #                     l.append([i,j,k])
 # print(l)
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z=x.intersection(y)
+print(z)
