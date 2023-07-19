@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    /* font-family: ; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/*
+header{
+    background-color: black;
+    color: white;
+    height:56px;
+}
+main{
+    height:90vh;
+    background-color:purple;
+    columns: red;
+
+}
+footer{
+    text-align: center;
+    color: aqua;
+    background-color: navy;
+} */
+/* .box1{
+    height: 23px;
+    width:34px;
+    background-color: blue;
+}
+.box2{
+    height: 23px;
+    width: 34px;
+    background-color: green;
+}
+span{
+    height: 34px;
+    width:34px;
+    background-color: yellow;
+} */
+.nav{
+    background-color: aqua;
+    color:rgb(2, 78, 88);
+    margin: 0;
+}
+.green{
+    display: inline-block;
+    background-color: blue;
+    color:yellow;
+    /* border:2px solid red; */
+    /* height: 290px; */
+    width: 50%;
+    height: 90vh;
+
+}
+.black{
+    display: inline-block;
+    background-color: black;
+    color:green;
+    /* border:2px solid red; */
+    width:50%;
+    height: 90vh;
+}
+li{
+    display: inline;
+    /* background-color:navy; */
+    color: white;
+}
+header{
+    background-color:navy;
+    text-align: center;
+}

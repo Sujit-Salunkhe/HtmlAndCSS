@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Captcha Generator</title>
+      <style>
+        #captchaImage {
+          width: 200px;
+          height: 80px;
+          border: 1px solid #000;
+          margin-bottom: 10px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Captcha Generator</h1>
+      <div id="captchaImage"></div>
+      <button onclick="generateCaptcha()">Generate Captcha</button>
+    
+      <script>
+        function generateCaptcha() {
+          var captchaImage = document.getElementById('captchaImage');
+          var captchaCode = generateRandomCode(6); // Generate a random captcha code
+          var captchaImageURL = generateCaptchaImageURL(captchaCode); // Generate the captcha image URL
+    
+          captchaImage.innerHTML = '<img src=" ' + captchaImageURL + '" alt="Captcha" />';
+        }
+    
+        function generateRandomCode(length) {
+          var charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+          var code = '';
+    
+          for (var i = 0; i < length; i++) {
+            var randomIndex = Math.floor(Math.random() * charset.length);
+            code += charset[randomIndex];
+          }
+    
+          return code;
+        }
+    
+        function generateCaptchaImageURL(captchaCode) {
+          // Replace this with your server-side code that generates the captcha image
+          // You can use a library or create the image dynamically using canvas or an external service
+          // This example uses a placeholder image URL
+    
+          return 'https://www.pandasecurity.com/en/mediacenter/src/uploads/2014/09/avoid-captcha.jpg' +  captchaCode;
+        }
+      </script>
+    </body>
+    </html>
+    <script src="script.js"></script>
+    
+</body>
+</html>
