@@ -1,0 +1,20 @@
+abbr{
+    font-style: italic;
+    color: green;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* Apply desired styles */
+    color: #888;
+    /* background: transparent; */
+    /* Add more custom styles as needed */
+  }
+/* input[type="date"]::-webkit-datetime-edit {
+    /* Apply desired styles */
+    /* color: #333; */
+    /* background-color: black; */
+    /* Add more custom styles as needed

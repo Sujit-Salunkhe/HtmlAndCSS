@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;    
+}
+
+.container {
+    height: 32rem;
+    width: 17rem;
+    border-radius: 30px;
+    background: #f6f7fa;
+    box-shadow:  16px 16px 32px #bebebe,
+             -16px -16px 32px #ffffff;
+}
+
+.top {
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetpin {
+    font-weight: lighter;
+}
+
+.pin { 
+    color: #b4b9c8;
+}
+
+.dotscontainer {
+    height: 20px;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow: inset 26px 26px 32px #cecece,
+                inset -26px -26px 32px #f2f2f2;
+    margin-top: 15px;
+ }
+
+.dotcolor {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow: inset 26px 26px 32px #ffb810,
+                inset -26px -26px 32px #f2f2f2;
+    margin-top: 15px;
+ }
+
+.bottom {
+    height: 15rem;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btnconatainer {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    color: #ffb810;
+    font-weight: bolder;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+    background: #f6f8fa;
+    box-shadow:  15px 15px 31px #cecece,
+                -15px -15px 31px #f2f2f2;
+    cursor: pointer;
+}
+
+.btncolor {
+    background-color: aqua;
+    background: #fe9306;
+    box-shadow:  15px 15px 31px #cecece,
+                -15px -15px 31px #f2f2f2;
+    color: white;
+
+}
+.empty {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.slash {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
