@@ -1,0 +1,44 @@
+@import "./resets";
+@import "./variabels";
+@function weight($weight-name) {
+  @return map-get($font-weight, $weight-name);
+}
+@mixin flex-center($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+@mixin theme($light-theme:true){
+    @if $light-theme{
+        background: lighten($primary-color, 100%);
+        color: darken($text-color, 100%);
+    }
+}
+@mixin mobile {
+    @media (max-width: $mobile) {
+            @content 
+        }
+}
+body {
+  background: $primary-color;
+  font-weight: weight(large);
+  color: $text-color;
+}
+.main {
+  @include flex-center(column);
+  width: 80%;
+  margin: 0 auto;
+  #{&}_paragraph {
+    font-weight: weight(small);
+    &:hover {
+        color: blue;
+    }
+  }
+  @include mobile{
+    flex-direction: column;
+  }
+}
+.light{
+    @include theme($light-theme:true)
+}
