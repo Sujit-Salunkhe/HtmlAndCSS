@@ -26,14 +26,20 @@ body {
   color: $text-color;
 }
 .main {
-  @include flex-center(column);
+  @include flex-center(row);
   width: 80%;
   margin: 0 auto;
-  #{&}_paragraph {
+  #{&}_paragraph1 {
     font-weight: weight(small);
     &:hover {
         color: blue;
     }
+  }
+  #{&}_paragraph2 {
+        @extend .main_paragraph1;
+        &:hover{
+            color: $accent-color;
+        }
   }
   @include mobile{
     flex-direction: column;
